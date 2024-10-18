@@ -3,12 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Selene</title>
+<!-- Nuestro css  -->
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+
 </head>
 <body>
-    <header>
-        
+    <header id="header">
+        <div>
+            <h1>Selene</h1>
+            <h2>Esoterismo y astrología</h2>
+        </div>
     </header>
+
+    <nav id="menu">
+        <div>
+            <i class="fa-brands fa-pagelines fa-2x" onclick="menu()"></i>
+            <ul>
+                <li>
+                    <a href="#about" onclick="closeMenu()">Horóscopo</a>
+                </li>
+                <li>
+                    <a href="#lineup" onclick="closeMenu()">Descubre tu signo</a>
+                </li>
+                <li>
+                    <a href="#tickets" onclick="closeMenu()">Mitología</a>
+                </li>
+                <li>
+                    <a href="#contact" onclick="closeMenu()">Más!</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <section id="horoscopo">
+        
+    </section>
     
 </body>
 </html>
