@@ -26,6 +26,11 @@ body{
     background-color: var(--color1);
 }
 
+img {
+    width: 100%;
+    vertical-align: middle;
+}
+
 header {
     background-image: url(../media/NICOLAS\ POUSSIN\ \(1594-1665\)\ eL\ MITO\ DE\ SELENE\ Y\ ENDIMION.jpg);
       height: calc(100vh - 3em); 
@@ -48,3 +53,68 @@ header h1{
     font-weight: 100;
 }
 
+.dech{
+    border: 1px solid red;
+}
+.izq{
+    border: 1px solid blue;
+}
+
+#horoscopo img{
+    border: 4px solid peru;
+    /* width: 70vh; */
+    height: 30vh;
+    vertical-align: middle;
+    margin: 0em 0 1em;
+    border-radius: 60px 0px 0px 0px;
+    object-fit:cover;
+}
+
+#pruebecillas{
+    background-color: #2d2c2c;
+    height: 50vh;
+    
+}
+.fondo {
+   background-color: #2d2c2c;
+   border: 10px pink;
+   height: 50vh;
+}
+.agujero{
+    height: 10vh;
+    border-radius: 60px;
+    background-color: transparent;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+
+
+.image-part {
+    width: 100%;
+    height: 400px;
+    background-image: url(../media/NICOLAS\ POUSSIN\ \(1594-1665\)\ eL\ MITO\ DE\ SELENE\ Y\ ENDIMION.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.left {
+    clip-path: ellipse(50% 100% at 25% 100%);
+    background-position: center;
+}
+
+.center {
+    clip-path: ellipse(50% 100% at 25% 100%);
+    background-position: center;
+}
+
+.right {
+    clip-path: ellipse(50% 100% at 25% 100%);
+    background-position: center;
+}
+
+.rounded-part {
+    clip-path: ellipse(50% 100% at 50% 100%);
+}
