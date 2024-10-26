@@ -31,6 +31,12 @@ img {
     vertical-align: middle;
 }
 
+h1{
+    font-family: var(--title);
+}
+
+/* HEADER  */
+
 header {
     background-image: url(../media/NICOLAS\ POUSSIN\ \(1594-1665\)\ eL\ MITO\ DE\ SELENE\ Y\ ENDIMION.jpg);
       height: calc(100vh - 3.5em); 
@@ -42,16 +48,101 @@ header {
       align-items: center;
       object-fit: contain;
 }
-h1{
-    font-family: var(--title);
-}
-
 
 header h1{
     font-size: 10vh;
     color: var(--color3);
     font-weight: 100;
 }
+
+/* MENU */
+
+.navbar{
+    background-color: var(--color2)!important;
+    border-top: 1px solid var(--color1);
+    --bs-navbar-hover-color:var(--color3);
+}
+
+.navbar-brand{
+    color: var(--color3);
+    font-family: var(--title);
+}
+
+.nav-item{
+    font-family: var(--title);
+}
+
+.nav-item a{
+    color: var(--color1);
+}
+
+.dropdown-menu{
+    background-color:var(--color2) ;
+}
+
+.dropdown-item {
+    width: auto;
+}
+ /* para botón activo  */
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: var(--color3);
+  
+}
+/* para q al boton estar activo se quede la linea */
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show::before{
+    width: 100%;
+}
+
+.navbar-toggler {
+    border: 1px solid var(--color3);
+    color: transparent;
+}
+
+
+
+.fa-bars{
+    color:var(--color3);
+}
+
+
+
+
+
+/* hover  */
+/* AAAAAAAAAAAAAAAAA */
+.dropdown-item:hover{
+    background-color: var(--color2);
+    color: var(--color3);
+}
+
+  .nav-item a{
+    text-decoration: none;
+    padding: 0.5em 0px;
+    margin: 0px 1em;
+    display: inline-block;
+    position: relative;
+  }
+  
+  .nav-item a::before{
+    transition: 300ms;
+    height: 0.1em;
+    content: "";
+    position: absolute;
+    background-color: var(--color3);
+    width: 0%;
+    bottom: 0.1em;
+  }
+  
+  
+  .nav-item a:hover::before {
+    width: 100%;
+  }
+
+
+
+/* STOP */
+
+
 
 .dech{
     border: 1px solid red;
@@ -118,3 +209,32 @@ header h1{
 .rounded-part {
     clip-path: ellipse(50% 100% at 50% 100%);
 }
+
+
+
+/* css navbar  */
+/* .link-7 {
+    transition: 0.4s;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    position: relative;
+  }
+  .link-7::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color: #ffffff;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.4s;
+  }
+  .link-7:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+  } */
