@@ -33,7 +33,7 @@ img {
 
 header {
     background-image: url(../media/NICOLAS\ POUSSIN\ \(1594-1665\)\ eL\ MITO\ DE\ SELENE\ Y\ ENDIMION.jpg);
-      height: calc(100vh - 3em); 
+      height: calc(100vh - 3.5em); 
       background-position: center;
       background-attachment: fixed;
       background-size: cover;
