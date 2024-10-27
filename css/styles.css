@@ -44,15 +44,24 @@ header {
       background-attachment: fixed;
       background-size: cover;
       display: flex;
-      justify-content: space-around;
-      align-items: center;
+      justify-content:end;
+      align-items:end;
       object-fit: contain;
+      text-align:right;
 }
 
 header h1{
-    font-size: 10vh;
+    font-size: 19vh;
     color: var(--color3);
     font-weight: 100;
+    margin: 2em 0.5em 0em 2em;
+}
+
+header h2{
+    font-size: 5vh;
+    font-family: var(--title);
+    color: var(--color3);
+    margin: 0em 2em 2em 2em;
 }
 
 /* MENU */
@@ -99,7 +108,6 @@ header h1{
 }
 
 
-
 .fa-bars{
     color:var(--color3);
 }
@@ -140,26 +148,78 @@ header h1{
 
 
 
-/* STOP */
+/* STOP MENU */
+
+h1{ /*Esto no se si se puede hacer con boostrap o está bien así*/
+    margin: 2em 2em 1em 2em;
+    text-align: center;
+}
 
 
+/* MAQUETACION DIVS */
+#horoscopo h1{
+    font-family: var(--title);
+    margin: 2em 2em 1em 2em;
+    text-align: center;
+}
 
-.dech{
+
+#horoscopo h2 {
+    font-family: var(--title);
+    padding-top: 1em;
+    margin-bottom: -0.6em;
+    text-align: center;
+    z-index: 99;
+    position: relative;
+    font-size: 6vh;
+}
+
+#horoscopo p {
+text-align: center;
+}
+
+.btn{
+    border-radius: 30px;
+    border: 1px solid var(--color2);
+    font-size: 1.9vh;
+}
+
+.btn:hover{
+    background-color: var(--color2);
+    text-emphasis-color: var(--color1);
+    color: var(--color1);
+    transition-duration: 0.3s;
+}
+
+#horoscopo img{
+    border: 4px solid rgb(233, 65, 9);
+    width: 95vh; 
+    height: 45vh;
+    vertical-align: middle;
+    margin: 0em 0 1em;
+    /* border-radius: 60px 0px 0px 0px; */
+    object-fit:cover;
+}
+
+/* STOP MAQUETACION DIVS */
+
+/* FORMULARIO */
+
+#formulario >h2{
+    font-family: var(--text);
+    font-size: 3vh;
+    padding: 0em 2em 2em 2em;
+}
+
+
+/* .dech{
     border: 1px solid red;
 }
 .izq{
     border: 1px solid blue;
-}
+} */
 
-#horoscopo img{
-    border: 4px solid peru;
-    /* width: 70vh; */
-    height: 30vh;
-    vertical-align: middle;
-    margin: 0em 0 1em;
-    border-radius: 60px 0px 0px 0px;
-    object-fit:cover;
-}
+
 
 #pruebecillas{
     background-color: #2d2c2c;
