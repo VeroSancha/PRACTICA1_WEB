@@ -271,4 +271,34 @@ text-align: center;
 }
 
 
+/* CARDS */
 
+.card{
+    width: 18em;
+    margin: 0.5em;
+    background-color: var(--color2);
+    color: var(--color1);
+    height: 24em;
+}
+
+.card-title{
+    font-family: var(--title);
+}
+.card-text{
+    font-family: var(--text);
+}
+
+.card-footer{
+    border: none;
+}
+
+.btn{
+    background-color: var(--color2);
+    border:var(--color1) 1px solid;
+    color: var(--color1);
+}
+
+.btn:hover{
+    border:var(--color3) 1px solid;
+    color: var(--color3);
+}
