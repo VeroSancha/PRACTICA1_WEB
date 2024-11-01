@@ -302,3 +302,15 @@ text-align: center;
     border:var(--color3) 1px solid;
     color: var(--color3);
 }
+
+
+
+.mask img{
+    width: 100%;
+}
+.mask{
+    -webkit-mask-image: url(https://cdn-icons-png.flaticon.com/512/32/32341.png);
+    mask-image: url(https://cdn-icons-png.flaticon.com/512/32/32341.png);
+    mask-position: center center;
+    mask-repeat: no-repeat;
+}
