@@ -37,6 +37,10 @@ h1{
     font-family: var(--title);
 }
 
+section{
+    margin-bottom: 10vw;
+}
+
 /* HEADER  */
 
 header {
@@ -207,8 +211,16 @@ text-align: center;
 /* STOP MAQUETACION DIVS */
 
 /* FORMULARIO zodiaco */
-
-
+.title{
+ display:flex;
+ flex-direction: row;
+ background-color: var(--color2);
+ width: 100%;
+}
+.title img{
+    width: 5em;
+    margin: 0.5em 3em;
+}
 #formulario{
     display: flex;
     flex-direction: column;
@@ -217,6 +229,10 @@ text-align: center;
 
 #form{
     display: flex;
+}
+
+#form p{
+    margin:0 2em;
 }
 
 #formulario h1{
@@ -231,15 +247,13 @@ text-align: center;
 #formulario >h2{
     font-family: var(--text);
     font-size: 3vh;
-    padding: 0em 2em 2em 2em;
+    padding:2em;
 }
 
 #characteristic {
-       
-    margin: auto;
-    width: 60%;
     color:var(--color2);
-    padding: 10em;
+    font-family: var(--text);
+    padding: 0 2em;
  }
 
  #animated{
@@ -248,10 +262,49 @@ text-align: center;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+    margin: 2em 0;
  }
 
+ #result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: var(--color2) solid 3px;
+    padding: 2em;
+    width: 80%;
+    max-width: 1000px;
+    border-radius: 20px;
+ }
  #photo{
-    width: 50%;
+    width: 60%;
+ }
+
+ #output{
+    font-family: var(--title);
+    font-size: 1.5em;
+    padding: 0 0.5em;
+ }
+
+ #space{
+    font-family: var(--text);
+ }
+.star{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+ .star img{
+    width: 3em;
+ }
+
+ .inp{
+    background-color: var(--color1);
+    color: var(--color2);
+    border: solid var(--color2) 2px;
+    border-radius: 5px;
+    margin-left: 1em;
+    padding: 0 0 0 0.5em;
  }
 
   

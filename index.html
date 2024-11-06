@@ -245,17 +245,24 @@
     </section>
 
     <section id="formulario">
+      <div class="title">
+        <img src="media/multipleStar_white.svg">
       <h1> Descubre tu signo del zodiaco</h1>
+      <img src="media/multipleStar_white.svg">
+      </div>
+      
       <h2>Introduce tu fecha de nacimiento</h2>
       <div id = "form">
-        <p>Mes:<input type="number" id="month" min="1" max="12" ></p>
-        <p>Día:<input type="number" id="day" min="1" max="31"></p>
+        <p>Mes:<input type="number" class="inp" id="month" min="1" max="12" ></p>
+        <p>Día:<input type="number" class="inp" id="day" min="1" max="31"></p>
       </div>
         <a id="animated" onclick="zodiac()"  class="btn">Descubrir </a>
-        <div>
+        <div id="result">
+          <div class="star"> <img src="media/multipleStar.svg"> <img src="media/multipleStar.svg"></div>
          <p id="photo"></p>
-        <p id= "space">Tu signo del zodiaco es: <span id="output"></span> </p>
+        <p id= "space">Tu signo del zodiaco es:<span id="output"></span> </p>
         <p id="characteristic"></p>
+        <div class="star"> <img src="media/multipleStar.svg"> <img src="media/multipleStar.svg"></div>
       </div>
     </section>  
        

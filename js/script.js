@@ -36,7 +36,7 @@ $('.main-carousel').flickity({
   
       if (birthmonth == 2&& birthday >= 19 || birthmonth == 3&& birthday <= 20){
          result = ("Pisces");
-         document.getElementById("photo").innerHTML="<img src='media/PISCIS.jpg'";
+         document.getElementById("photo").innerHTML="<img src='media/PISCIS.jpg'>";
         document.getElementById("characteristic").innerHTML="Pisceans live in their imaginary world that barely has a connection with the reality. They love to look at the world through a rosy window. When challenged by reality, Pisceans have the tendency to retreat into their world of imagination.";
         
       }
@@ -48,7 +48,7 @@ $('.main-carousel').flickity({
     
       if (birthmonth == 4&& birthday >= 20|| birthmonth == 5 && birthday <= 20){
           result = ("Taurus");
-         document.getElementById("photo").innerHTML="<img src='media/TAURO.jpg'";
+         document.getElementById("photo").innerHTML="<img src='media/TAURO.jpg'>";
          document.getElementById("characteristic").innerHTML="Taureans are noted for their determination and zeal. It is not easy to distract a Taurian from his goal once he has set his target. He would stay focused on his target and would continuously strive to achieve it.Taureans attach high value to simplicity and functionality. They often live a life that is simple and devoid of luxury.";
         
       }
