@@ -211,7 +211,7 @@ text-align: center;
     height: 45vh;
     vertical-align: middle;
     margin: 0em 0 1em;
-    /* border-radius: 60px 0px 0px 0px; */
+    border-radius: 60px; 
     object-fit:cover;
 }
 
@@ -482,8 +482,20 @@ text-align: center;
 
 .p-mitologia{
     text-align: center;
-    padding: 3em;
+    margin-bottom: -5em;
+    width: 53vw;
+    font-family: var(--title);
+    font-size: larger;
 }
+
+.intro-mitos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-size: cover;
+}
+
 
 
 /* PRUEBA CARTAS */
@@ -514,6 +526,7 @@ text-align: center;
  width: 25%;
  opacity: 1;
 }
+
 .mask img{
     width: 100%;
 }
@@ -522,7 +535,9 @@ text-align: center;
     mask-image: url(https://cdn-icons-png.flaticon.com/512/32/32341.png);
     mask-position: center center;
     mask-repeat: no-repeat;
-}
+} 
+
+
 
 
 
