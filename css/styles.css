@@ -190,6 +190,11 @@ h1{ /*Esto no se si se puede hacer con boostrap o está bien así*/
 #horoscopo p {
 text-align: center;
 }
+#horoscopo h4{
+    font-family: var(--title);
+    font-size: 3vh;
+}
+
 
 .btn{
     border-radius: 30px;
@@ -475,7 +480,40 @@ text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: -16vh;
 }
+
+.marquee {
+    width: 100%;
+    height: 39px;
+    border-top: 1px solid var(--color2);
+    border-bottom:1px solid var(--color2);
+    overflow: hidden;
+  }
+  
+  .marquee li {
+    font-size: 3vh;
+    padding: 0.5vh;
+  }
+
+  .marquee li img {
+    align-items: center;
+  }
+  
+  .marquee__content {
+    display: flex;
+    list-style: none;
+    animation: scrolling 30s linear infinite;
+  }
+  
+  .marquee__item {
+    flex-shrink: 0;
+  }
+  
+  @keyframes scrolling {
+    0% { transform: translateX(0) }
+    100% { transform: translateX(-100%) }
+  }
 
 
 
@@ -487,7 +525,7 @@ text-align: center;
     text-align: center;
     margin-bottom: -5em;
     width: 53vw;
-    font-family: var(--title);
+    font-family: var(--text);
     font-size: larger;
 }
 
@@ -520,6 +558,7 @@ text-align: center;
 #future h3{
     font-family: var(--title);
     color: var(--color1);
+    padding: 2em 0em 1em 0em;
 }
 
 .org-future{
@@ -535,7 +574,6 @@ text-align: center;
     display: flex;
     justify-content: center;
     gap:10px;
-    padding: 3em;
     padding-bottom: 6em;
 }
 
@@ -626,8 +664,8 @@ text-align: center;
   
   .modal-text {
     margin-top: 15px;
-    font-size: 16px;
-    color: #333;
+    font-size: 2vh;
+    color: var(--color2)
   }
   
   .close-button {
@@ -682,6 +720,65 @@ text-align: center;
   .namesign img{
     width: 2em;
   }
+
+
+
+footer {
+    background-color: var(--color2);
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer h1{
+    color: var(--color3);
+    font-family: var(--title);
+}
+
+footer .legal h4{
+    color: var(--color3);
+    font-weight: lighter;
+    font-size: 4vh;
+}
+
+.datos{
+    padding-top: 3em;
+}
+
+footer .legal{
+    color: var(--color1);
+    border-right: 1px solid var(--color1);
+    font-size: 2vh;
+}
+footer p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+footer .copy{
+    padding: 4em 0em 0em 0em;
+    color: var(--color3);
+}
+
+footer .iconos {
+    display: flex;
+    flex-direction: row;
+}
+
+footer .iconos a {
+    color: var(--color1);
+    padding: 2em;
+}
+
+footer .iconos a:hover {
+    color: var(--color3);
+}
+
+
+
+
 
 
 
