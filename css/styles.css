@@ -163,7 +163,7 @@ header h2{
 
 /* STOP MENU */
 
-h1{ /*Esto no se si se puede hacer con boostrap o está bien así*/
+h1{ 
     margin: 2em 2em 1em 2em;
     text-align: center;
 }
@@ -219,6 +219,8 @@ text-align: center;
     border-radius: 60px; 
     object-fit:cover;
 }
+
+
 
 /* STOP MAQUETACION DIVS */
 
@@ -468,6 +470,7 @@ text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: -6em;
 }
 
 .marquee {
@@ -508,9 +511,13 @@ text-align: center;
 
 /* SECCIONES PAG2 (mitos.html) */
 
+#mitologia{
+    border-bottom: 2px solid var(--color2);
+    padding-bottom: 2em;
+}
+
 .p-mitologia{
     text-align: center;
-    margin-bottom: -5em;
     width: 53vw;
     font-family: var(--text);
     font-size: larger;
@@ -542,6 +549,7 @@ text-align: center;
 
 #future{
     background-color: var(--color2);
+    margin-bottom: 1em;
 } 
 
 #future h3{
@@ -601,6 +609,11 @@ text-align: center;
     mask-position: center center;
     mask-repeat: no-repeat;
 } 
+
+#gallery{
+    margin-bottom: 2em;
+    margin-top: -5em;
+}
 
 
 /* modal */
@@ -789,6 +802,79 @@ footer .iconos a:hover {
 
 
 
+/* MEDIA QUERYS */
 
+@media screen and (max-width: 950px) {
+    .marquee{
+        margin-top: 2em;
+    }
+}
 
- 
+@media screen and (max-width: 850px) {
+    .p-mitologia{
+        font-size: 2.5vh;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .p-mitologia{
+        font-size: 2vh;
+    }
+    #mitologia{
+        margin-bottom: 7em;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #services .marquee{
+        margin-top: 4em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #formulario h1{
+        font-size: 4vh;
+    }
+    #particles-js h3{
+        font-size: 3.3vh;
+    }
+    .p-mitologia{
+        width: 85vh;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #formulario h1 {
+        font-size: 3vh;
+    }
+    .p-mitologia{
+        width: 70vh;
+    }
+    #future h3{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .p-mitologia{
+        width: 53vh;
+    }
+    #future h3{
+        font-size: 3vh;
+    }
+    /* footer .info-foot{
+        display: flex;
+        flex-direction: column;
+        border: blueviolet
+    } */
+} 
+
+@media screen and (max-width: 300px){
+    #formulario >h2{
+        text-align: center;
+    }
+    #services .marquee{
+        margin-top: 6em;
+    }
+     
+}
