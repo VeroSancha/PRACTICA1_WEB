@@ -44,7 +44,7 @@ section{
 /* HEADER  */
 
 header {
-    background-image: url(../media/NICOLAS\ POUSSIN\ \(1594-1665\)\ eL\ MITO\ DE\ SELENE\ Y\ ENDIMION.jpg);
+    background-image: url(../media/header.JPG);
       height: calc(100vh - 3.5em); 
       background-position: center;
       background-attachment: fixed;
@@ -228,6 +228,7 @@ text-align: center;
  flex-direction: row;
  background-color: var(--color2);
  width: 100%;
+ justify-content: center;
 }
 .title img{
     width: 5em;
@@ -352,15 +353,6 @@ text-align: center;
 }
 
 
-/* .dech{
-    border: 1px solid red;
-}
-.izq{
-    border: 1px solid blue;
-} */
-
-
-
 #pruebecillas{
     background-color: #2d2c2c;
     height: 50vh;
@@ -376,14 +368,6 @@ text-align: center;
     border-radius: 60px;
     background-color: transparent;
 }
-
-.container {
-    max-width: 1200px;
-    width: 90%;
-    margin: 1em 3em 3em;
-}
-
-
 
 
 
@@ -416,6 +400,10 @@ text-align: center;
 
 
 /* CARDS */
+
+.carousel{
+    margin-top: 2em;
+}
 
 .card{
     width: 18em;
@@ -480,7 +468,6 @@ text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: -16vh;
 }
 
 .marquee {
@@ -551,6 +538,8 @@ text-align: center;
 
 /* PRUEBA CARTAS */
 
+
+
 #future{
     background-color: var(--color2);
 } 
@@ -567,6 +556,15 @@ text-align: center;
     align-items: center;
 }
 
+.org-future p{
+    color: var(--color1);
+    font-family: var(--text);
+}
+
+.org-future .title img{
+    width: 2em;
+    margin: 1em 2em 0 2em;
+}
 .contain{
     margin:1em;
     width:100%;
@@ -575,15 +573,15 @@ text-align: center;
     justify-content: center;
     gap:10px;
     padding-bottom: 6em;
+    border-radius: 10px;
 }
 
 .contain img{
     width: 15%;
     opacity: 0.5;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 10px;
-    border: solid var(--color3) 2px;
     transition: all ease-in-out 0.5s;
 
 }
@@ -614,15 +612,22 @@ text-align: center;
     cursor: pointer;
     border-radius: 5px;
     transition: transform 0.2s ease;
+    height: 15em;
+    object-fit: cover;
+    filter: grayscale(25%);
   }
 
   .gallery-image:hover {
     transform: scale(1.05);
+    filter: grayscale(0%);
   }
 
-  
-
-
+  .gallery-item h1{
+    margin: 0.5em 0 0 0.5em;
+    position: absolute;
+    color: var(--color3);
+    z-index: 1;
+  }
 
   .namesign h1{
     margin: 1em;
@@ -658,8 +663,9 @@ text-align: center;
   
   .modal-image {
     max-width: 100%;
-    height: auto;
+    height: 18em;
     border-radius: 5px;
+    object-fit: cover;
   }
   
   .modal-text {
@@ -722,6 +728,9 @@ text-align: center;
   }
 
 
+ 
+ 
+  /* FOOTER  */
 
 footer {
     background-color: var(--color2);
