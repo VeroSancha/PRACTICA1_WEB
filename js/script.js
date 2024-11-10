@@ -30,26 +30,26 @@ $('.main-carousel').flickity({
       ){
           result = ("Aquarius");
        document.getElementById("photo").innerHTML="<img src='media/ACUARIO.jpg'>";
-     document.getElementById("characteristic").innerHTML="Aquarians are extremely vulnerable and sensitive. Although you may often find them being surrounded by many friends but in reality they rarely have close friends and acquaintances. Aquarius is a universal sign which makes them public people. Hence Aquarians are often associated with clubs, organizations and forums and enthusiastically participate in intellectual discussions. Aquarians are great communicators as long as they are within their mental realm.";
+     document.getElementById("characteristic").innerHTML="Los acuario son extremadamente vulnerables y sensibles. Aunque a menudo se les ve rodeados de amigos, en realidad tienen pocos cercanos y conocidos. Acuario es un signo universal que los convierte en personas públicas. Por eso, suelen estar ligados a clubes, organizaciones y foros, participando con entusiasmo en debates intelectuales. Los acuarianos son grandes comunicadores siempre que se mantengan en su ámbito mental.";
     
       }
   
       if (birthmonth == 2&& birthday >= 19 || birthmonth == 3&& birthday <= 20){
          result = ("Pisces");
          document.getElementById("photo").innerHTML="<img src='media/PISCIS.jpg'>";
-        document.getElementById("characteristic").innerHTML="Pisceans live in their imaginary world that barely has a connection with the reality. They love to look at the world through a rosy window. When challenged by reality, Pisceans have the tendency to retreat into their world of imagination.";
+        document.getElementById("characteristic").innerHTML="Los piscis viven en un mundo imaginario que apenas se conecta con la realidad. Les encanta observar el mundo a través de un cristal rosado. Cuando la realidad los desafía, los piscianos tienden a refugiarse en su mundo de fantasía.";
         
       }
      if (birthmonth == 3&& birthday >= 21 || birthmonth == 4 && birthday <= 19){
          result = ("Aries");
         document.getElementById("photo").innerHTML="<img src='media/ARIES.jpg'>";
-       document.getElementById("characteristic").innerHTML="Aries demonstrate strong personality. They have strong leadership qualities and honest and straightforward. Aries often have strong determination and can’t be deterred by failures.Aries are always eager for action. They take up to leadership spontaneously. But they don’t judge the pros and cons of a situation before acting. This also makes them vulnerable.";
+       document.getElementById("characteristic").innerHTML="Los aries demuestran una personalidad fuerte. Tienen grandes cualidades de liderazgo, son honestos y directos. A menudo muestran una fuerte determinación y no se dejan desalentar por los fracasos. Los arianos siempre están listos para la acción y asumen el liderazgo de forma espontánea. Sin embargo, no evalúan los pros y los contras de una situación antes de actuar, lo que también los hace vulnerables.";
      }
     
       if (birthmonth == 4&& birthday >= 20|| birthmonth == 5 && birthday <= 20){
           result = ("Taurus");
          document.getElementById("photo").innerHTML="<img src='media/TAURO.jpg'>";
-         document.getElementById("characteristic").innerHTML="Taureans are noted for their determination and zeal. It is not easy to distract a Taurian from his goal once he has set his target. He would stay focused on his target and would continuously strive to achieve it.Taureans attach high value to simplicity and functionality. They often live a life that is simple and devoid of luxury.";
+         document.getElementById("characteristic").innerHTML="Los tauro se destacan por su determinación y entusiasmo. No es fácil desviar a un taurino de su objetivo una vez que ha fijado su meta. Se mantiene enfocado y lucha continuamente por alcanzarla. Los taurinos valoran mucho la simplicidad y la funcionalidad. A menudo llevan una vida sencilla y alejada de los lujos.";
         
       }
     
@@ -57,48 +57,48 @@ $('.main-carousel').flickity({
        ){
           result = ("Gemini");
          document.getElementById("photo").innerHTML="<img src='media/GEMINIS.jpg'>";
-        document.getElementById("characteristic").innerHTML="Geminis are full of duality. They always look to a situation from dual perspective. Geminis are characterized by inconstancy and dual nature. Geminis therefore always stay confused about their feelings.Geminis however are strong communicators and express good control over language. They are often found to have knowledge over several languages.";
+        document.getElementById("characteristic").innerHTML="Los geminis están llenos de dualidad. Siempre ven una situación desde dos perspectivas. Se caracterizan por su inconstancia y naturaleza dual, lo que los lleva a estar confundidos sobre sus sentimientos. Sin embargo, los geminianos son comunicadores hábiles y tienen un gran dominio del lenguaje. A menudo poseen conocimientos de varios idiomas.";
        
       }
     
       if (birthmonth == 6&& birthday >= 21 || birthmonth == 7&& birthday <= 22){
           result = ("Cancer");
          document.getElementById("photo").innerHTML="<img src='media/CANCER.jpg'>";
-        document.getElementById("characteristic").innerHTML="Cancerians are emotional. Their lives are often inflicted with mood shifts. You can find a Canerian in different moods even during a day.The true emotion of Cancer however is hidden behind their composure. But they are soft creatures and can be hurt easily by unkind words.People of the Cancer zodiac sign can be prone to depression and other mental issues. However, cancers are great family people and enjoy big families around them.";
+        document.getElementById("characteristic").innerHTML="Los cancer son emocionales. Sus vidas suelen estar marcadas por cambios de humor. Es común ver a un canceriano en diferentes estados de ánimo incluso en un solo día. Sin embargo, su verdadera emoción está oculta tras su compostura. Son seres sensibles que pueden lastimarse fácilmente con palabras crueles. Las personas de este signo son propensas a la depresión y otros problemas mentales. Aun así, los cancerianos son excelentes personas de familia y disfrutan estar rodeados de grandes familias.";
         
       }
       if (birthmonth == 7&& birthday >= 23 || birthmonth == 8 && birthday <= 22){
           result = ("Leo");
          document.getElementById("photo").innerHTML="<img src='media/LEO.jpg'>";
-              document.getElementById("characteristic").innerHTML="Leos are warm spirited. They are full of energy and always eager to jump into action. Leos crave for recognition and admiration. Leos always love to be at the centre of attraction. They strive to reach to the top in whatever they do. Leos always love to be surrounded with large crowd and admirers. However, they are often unkind to criticism and don’t take the words of critics lightly.Leos are very ambitious and choose their acquaintances carefully. They aspire for social recognition.";
+              document.getElementById("characteristic").innerHTML="Los leo tienen un espíritu cálido. Están llenos de energía y siempre están listos para actuar. Desean reconocimiento y admiración, y les encanta ser el centro de atención. Se esfuerzan por llegar a la cima en todo lo que hacen. Los leoninos disfrutan estar rodeados de multitudes y admiradores. Sin embargo, suelen ser poco tolerantes con las críticas y no toman a la ligera las palabras de los críticos. Son muy ambiciosos y eligen cuidadosamente a sus conocidos. Aspiran al reconocimiento social.";
         
       }
       if (birthmonth == 8 && birthday >= 23 || birthmonth == 9 && birthday <= 22){
           result = ("Virgo");
          document.getElementById("photo").innerHTML="<img src='media/VIRGO.jpg'>";
-          document.getElementById("characteristic").innerHTML="Virgos have a keen sense of good and bad and for that they are highly discriminating. They have an intuitive sense to identify wrong motives in people. Hence, Virgos exercise extreme caution in what they do.The virgin defines purity and therefore they are endowed with the ability to distinguish the good from the bad. Hence, Virgos are also cleanliness freaks. Despite their intelligence Virgos often remain confused about the decisions they make in their life. Also, you will not find Virgos teeming with activities.";
+          document.getElementById("characteristic").innerHTML="Los virgo tienen un agudo sentido del bien y el mal, lo que los hace altamente discriminativos. Poseen una intuición natural para identificar malas intenciones en las personas, por lo que actúan con extrema cautela en todo lo que hacen. La virgen representa pureza, y por ello tienen la habilidad de distinguir lo bueno de lo malo. Además, los virginianos suelen ser obsesivos con la limpieza. A pesar de su inteligencia, a menudo se sienten confundidos sobre las decisiones que toman en su vida. Tampoco es común verlos llenos de actividades.";
       }
       if (birthmonth == 9&& birthday >= 23 || birthmonth == 10&& birthday <= 22){
         result = ("Libra");
          document.getElementById("photo").innerHTML="<img src='media/LIBRA.jpg'>";
-          document.getElementById("characteristic").innerHTML="Libra is an active sign and members born under the sign are endowed with high energy. But Librans also tend to run out of their energy soon.The Libra is the ‘balance’ and members of this sign have a very balanced mind. They can be found in settling disputes often. Librans always try to maintain harmony and balance. They are also very level headed and have a keen sense for justice. Therefore, their suggestions are often highly sought after by their friends and kins.Librans are two faceted characters. They both have the cheerfulness and darkness in them. Librans have phases of heightened activities but they can easily slip into a phases of complete inactivity and apathy as well.";
+          document.getElementById("characteristic").innerHTML="Libra es un signo activo y sus miembros están dotados de alta energía. Sin embargo, los libranos tienden a agotar su energía rápidamente. Libra es el ‘balance’, y las personas nacidas bajo este signo tienen una mente muy equilibrada. A menudo se les encuentra resolviendo disputas. Los libranos siempre intentan mantener la armonía y el equilibrio. Son muy ecuánimes y tienen un agudo sentido de la justicia, por lo que sus sugerencias son muy valoradas por sus amigos y familiares. Los libranos son de carácter dual; poseen tanto alegría como oscuridad. Tienen períodos de gran actividad, pero también pueden caer fácilmente en fases de completa inactividad y apatía.";
       }
       if (birthmonth == 10 && birthday >= 23|| birthmonth == 11 && birthday <= 21){
          result = ("Scorpio");
          document.getElementById("photo").innerHTML="<img src='media/SCORPIO.jpg'>";
-          document.getElementById("characteristic").innerHTML="Scorpions are most diverse in nature and therefore present the most interesting study. Scorpios hold grudge and would wait patiently for the right moment to strike. They are not likely to forget any act of betrayal or treachery. For Scorpios what is implied is more fascinating than the obvious.Scorpios are often described as egoists. However, some of the positive traits of Scorpios are- diplomacy, intuition, intelligence, engaging, resolute, spirituality and sensitivity.";
+          document.getElementById("characteristic").innerHTML="Los escorpio son los más diversos por naturaleza, lo que los convierte en un estudio fascinante. Los escorpios guardan rencor y esperan pacientemente el momento adecuado para actuar. No suelen olvidar ningún acto de traición o deslealtad. Para ellos, lo implícito es más fascinante que lo evidente. A menudo se les describe como egoístas. Sin embargo, algunas de las cualidades positivas de los escorpios son: diplomacia, intuición, inteligencia, carisma, determinación, espiritualidad y sensibilidad.";
       }
       if (birthmonth == 11 && birthday >= 22 || birthmonth == 12 && birthday <= 21){
           result = ("Sagittarius");
          document.getElementById("photo").innerHTML="<img src='media/SAGITARIO.jpg'>";
-          document.getElementById("characteristic").innerHTML="Sagittarians are the incurable optimists. They are always looking at the positive side of a thing. Their optimism can’t be dampened by hardships or negative results.Sagittarians often are outdoor people. They will take interest in all sorts of sports and outdoor activities. They are also adventures in nature. Although they are true to their faults but can also turn completely deaf to criticism and turn down suggestions.";
+          document.getElementById("characteristic").innerHTML="Los sagitario son los optimistas incurables. Siempre ven el lado positivo de las cosas. Su optimismo no se ve afectado por las dificultades o resultados negativos. Los sagitarianos suelen ser personas amantes del aire libre. Se interesan por todo tipo de deportes y actividades al aire libre. También son aventureros por naturaleza. Aunque son fieles a sus defectos, también pueden volverse completamente indiferentes a las críticas y rechazar sugerencias.";
       }
     
     if(birthmonth == 12 && birthday >= 22 || birthmonth == 1 && birthday <= 19){
    
           result = ("Capricorn");
        document.getElementById("photo").innerHTML="<img src='media/CAPRICORN.jpg'>";
-       document.getElementById("characteristic").innerHTML="Members of this sign has an insatiable desire to climb higher and during this course they can also become selfish and might not hesitate to sacrifice other’s interests in fulfilling their goals.Capricorns may seem risk averse but in reality they carefully plan all their moves ahead and rehearse them to perfection.";
+       document.getElementById("characteristic").innerHTML="Los miembros de este signo tienen un deseo insaciable de ascender y, en el proceso, pueden volverse egoístas y no dudar en sacrificar los intereses de los demás para cumplir sus objetivos. Los capricornios pueden parecer reacios a los riesgos, pero en realidad, planean cuidadosamente todos sus movimientos con antelación y los ensayan a la perfección.";
       }else if (birthmonth>12||birthday>31){
          alert("Please enter an accurate date ! ");
       }
