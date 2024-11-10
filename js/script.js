@@ -105,21 +105,6 @@ $('.main-carousel').flickity({
    document.getElementById("output").innerHTML= result;
   }
 
-  // GALERÍA MODAL
-
-  // $(document).ready(function() {
-  //   $('#imageModal').on('show.bs.modal', function(event) {
-      
-  //     var button = $(event.relatedTarget);
-      
-  //     var imageUrl = button.data('image');
-  //     var imageText = button.data('text');
-  
-  //     $('#modalImage').attr('src', imageUrl);
-  //     $('#modalText').text(imageText);
-  //   });
-  // });
-
 
   // modal con jquery
   
@@ -147,10 +132,10 @@ $('.main-carousel').flickity({
     
       // Encuentra el modal actual usando la clase is-visible
       const currentModal = $('.modal.is-visible'); 
-      const targetModal = $(this).data('target'); // Modal al que debemos navegar
+      const targetModal = $(this).data('target'); 
     
-      currentModal.removeClass('is-visible'); // Oculta el modal actual
-      $(targetModal).addClass('is-visible'); // Muestra el modal objetivo
+      currentModal.removeClass('is-visible'); 
+      $(targetModal).addClass('is-visible'); 
     });
   });
 

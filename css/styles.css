@@ -81,7 +81,14 @@ header h2{
 .navbar-brand{
     color: var(--color3);
     font-family: var(--title);
+    transition: 0.5s;
 }
+
+.navbar-brand:hover{
+    transform: scale(1.1);
+    color: var(--color3)!important;
+}
+
 
 .nav-item{
     font-family: var(--title);
@@ -603,12 +610,6 @@ text-align: center;
 .mask img{
     width: 100%;
 }
-.mask{
-    -webkit-mask-image: url(https://cdn-icons-png.flaticon.com/512/32/32341.png);
-    mask-image: url(https://cdn-icons-png.flaticon.com/512/32/32341.png);
-    mask-position: center center;
-    mask-repeat: no-repeat;
-} 
 
 #gallery{
     margin-bottom: 2em;
