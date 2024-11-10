@@ -57,14 +57,14 @@ header {
 }
 
 header h1{
-    font-size: 19vh;
+    font-size: 10vw;
     color: var(--color3);
     font-weight: 100;
-    margin: 2em 0.5em 0em 2em;
+    margin: 2em 0.6em 0em 2em;
 }
 
 header h2{
-    font-size: 5vh;
+    font-size: 3vw;
     font-family: var(--title);
     color: var(--color3);
     margin: 0em 2em 2em 2em;
@@ -672,6 +672,7 @@ text-align: center;
     max-width: 500px;
     width: 90%;
     position: relative;
+    height: 42em;
   }
   
   .modal-image {
@@ -811,23 +812,32 @@ footer .iconos a:hover {
 }
 
 @media screen and (max-width: 850px) {
+   
     .p-mitologia{
         font-size: 2.5vh;
     }
+
 }
 
 @media screen and (max-width: 700px) {
+    header{
+        height: 60vh;
+    }
+    
     .p-mitologia{
-        font-size: 2vh;
+        font-size: 2.5vw;
     }
     #mitologia{
         margin-bottom: 7em;
     }
-}
 
-@media screen and (max-width: 700px) {
+
     #services .marquee{
         margin-top: 4em;
+    }
+
+    .carousel{
+        width: 85%;
     }
 }
 
@@ -839,7 +849,10 @@ footer .iconos a:hover {
         font-size: 3.3vh;
     }
     .p-mitologia{
-        width: 85vh;
+        width: 70vw;
+    }
+    #characteristic{
+        font-size: 2.4vw;
     }
 }
 
@@ -847,26 +860,65 @@ footer .iconos a:hover {
     #formulario h1 {
         font-size: 3vh;
     }
-    .p-mitologia{
-        width: 70vh;
-    }
+    
     #future h3{
         text-align: center;
+    }
+
+    #characteristic{
+        font-size: 2.6vw;
+    }
+    .carousel{
+        width: 80%;
+    }
+
+    .card{
+        width: 16em;
+    }
+    .card-text{
+        font-size: 0.8em;
+    }
+    .modal-content{
+        width: 75%;
+        height: 70vh;
+    }
+    .modal-text{
+        font-size: 2.6vw;
+    }
+    .modal-image{
+        height: 13em;
     }
 }
 
 @media screen and (max-width: 400px) {
     .p-mitologia{
-        width: 53vh;
+        width: 75vw;
+        font-size: 3.5vw;
     }
     #future h3{
-        font-size: 3vh;
+        font-size: 7vw;
+    }
+
+    .carousel{
+        width: 75%;
+    }
+
+    .card{
+        width: 14em;
+    }
+    .modal-content{
+        height: 65vh;
+    }
+    .modal-text{
+        font-size: 2.8vw;
     }
     /* footer .info-foot{
         display: flex;
         flex-direction: column;
         border: blueviolet
     } */
+
+    
 } 
 
 @media screen and (max-width: 300px){
